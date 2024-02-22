@@ -87,7 +87,7 @@ function App() {
              <li>CSS</li>
              <li> Java Script</li>
              <li> Type Script</li>
-             <li> React</li>
+             <li> Reactt</li>
              <li> Material-UI</li>
              <li> Sass</li>
              <li> Tailwind</li>
