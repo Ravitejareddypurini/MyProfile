@@ -1,0 +1,12 @@
+.footer_title{
+    font-size: var(--size-xs);
+    font-weight: 400;
+    color: var(--clr-s600);
+    text-transform: uppercase;
+    left: 0.3em;
+    user-select: none;
+    text-align: center;
+    bottom: 0;
+    padding-bottom: auto;
+    width: 100%;
+}

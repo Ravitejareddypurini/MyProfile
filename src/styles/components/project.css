@@ -1,0 +1,141 @@
+.exp{
+    display: flex;
+}
+.section_text_p1{
+    text-align: center;
+    color:var(--clr-s800);
+    align-items: center;
+}
+.title{
+    text-align: center;
+    color: var(--clr-light);
+    font-size: var(--size-xl);
+}
+
+.experience-details-container{
+    border: 1px solid; 
+    border-color: var(--clr-s600);
+    margin: 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    
+    
+}
+.project-img{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 1.5em; */
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    /* transform: translateY(-50%); */
+}
+.btn-container{
+    margin-bottom: 2em;
+}
+.exp__hr{
+    margin-top: 6rem;
+    margin-bottom: 2em;
+    border-color: var(--clr-s600);
+}
+
+/* .contact_info{
+    display: flex;
+    color: var(--clr-light);
+    text-decoration: none;
+    padding-right: 0.5em;
+}
+.contact-items{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: var(--size-lg);
+    
+    
+}
+.contact-container{
+    align-content: center;
+    border: 1px solid ;
+    border-color: var(--clr-s600);
+    border-radius: 1.5rem;
+}
+.icons{
+    vertical-align: bottom;
+}
+@media (min-width: 475px){
+    .contact-items{
+        font-size: var(--size-sm);
+        flex-direction: column;
+        
+    } 
+}
+@media (min-width: 768px){
+    .contact-items{
+        font-size: var(--size-lg);
+        flex-direction: row;
+       
+    } 
+} */
+
+.contact-upper-container{
+    display:flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 0.1rem solid;
+    border-color: var(--clr-s600);
+    margin:2rem auto;
+    padding:0.5rem;
+}
+.contact-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.5rem;
+    margin:1rem;
+}
+.contact_info{
+    display: flex;
+    color: var(--clr-light);
+    text-decoration: none;
+    padding-right: 0.5em;
+}
+.icons{
+    margin-right: 0.5em;
+    font-size: var(--size-xl);
+    color: rgb(246, 63, 30);
+}
+.icons1{
+    margin-right: 0.5em;
+    font-size: var(--size-xl);
+    color: rgb(26, 225, 236);
+}
+@media (min-width: 475px){
+    .contact-upper-container{
+        
+        flex-direction: column;
+        
+    } 
+    .contact_info{
+        font-size: var(--size-m);
+    }
+}
+@media (min-width: 768px){
+    .contact-upper-container{
+      
+        flex-direction: column;
+       
+    }
+    .contact_info{
+        font-size: var(--size-xl);
+    }
+    
+ }
+ @media (min-width: 1024px){
+    .contact-upper-container{
+      
+        flex-direction: row;
+       
+    }
+ }

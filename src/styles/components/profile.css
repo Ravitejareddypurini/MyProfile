@@ -1,0 +1,155 @@
+.profile{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.profile__img{
+    
+    display: inline;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+   
+}
+
+.profile__subtitle{
+    color:var(--clr-s800);
+    font-size: var(--size-base);
+    line-height: 0.9;
+}
+.profile__title{
+    color:var(--clr-s400);
+    text-transform: uppercase;
+    font-size: var(--size-4xl);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+
+.profile__description{
+    max-width: 60ch;
+    font-size:var(--size-sm);
+    color: var(--clr-s600);
+
+}
+.profile__btn{
+    text-transform: capitalize;
+    font-size: var(--size-sm);
+}
+
+@media (min-width: 475px){
+    .profile{
+        gap:1em;
+    }
+    .profile__btn{
+        margin-bottom: 8em;
+    }
+    
+    .profile__img{
+       margin-top: 5em;
+        width: 9rem;
+        height: 9rem;
+       
+    }
+    .profile__subtitle{
+        font-size: var(--size-lg);
+        
+    };
+    .profile__title{
+        
+        font-size: var(--size-5xl);
+        
+        
+    }
+    .profile__description{
+        
+        font-size:var(--size-base);
+    }
+    .profile__btn{
+        font-size: var(--size-base);
+    }
+}
+@media (min-width: 640px){
+    .profile__btn{
+        margin-bottom: 8em;
+    }
+    .profile__img{
+        margin-top: 5em;
+        
+        
+     }
+}
+@media (min-width: 768px){
+    .profile{
+       
+        gap:1.5rem;
+        
+    }
+    .profile__img{
+        margin-top: 0em;
+        
+        
+     }
+}
+@media (min-width: 1024px){
+    .profile{
+       
+        gap:0rem;
+        
+    }
+    .profile__img{
+       
+        width: 8rem;
+        height: 8rem;
+       
+    }
+    .profile__subtitle{
+        font-size: var(--size-2xl);
+        
+    };
+    .profile__title{
+        
+        font-size: var(--size-7xl);
+        
+        
+    }
+    .profile__description{
+        
+        font-size:var(--size-lg);
+    }
+    .profile__btn{
+        font-size: var(--size-lg);
+    }
+}
+@media (min-width: 1280px){
+    
+    .profile__img{
+       
+        width: 10rem;
+        height: 10rem;
+       
+    }
+    .profile__subtitle{
+        font-size: var(--size-4xl);
+        
+    };
+    .profile__title{
+        
+        font-size: var(--size-9xl);
+        
+        
+    }
+    .profile__description{
+        
+        font-size:var(--size-xl);
+    }
+    .profile__btn{
+        font-size: var(--size-lg);
+    }
+}
+@media (min-width: 1535px){
+    
+}
+
