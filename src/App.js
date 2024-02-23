@@ -69,7 +69,7 @@ function App() {
       <section id="about" className='about container '>
         <div className='about__content'>
         <hr className='about__hr'></hr>
-          <h2 className='about__title'>About</h2>
+          {/* <h2 className='about__title'>About</h2> */}
           <p className='about__desctiption'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
           enthusiast specialized in bulding stunning pixel-perfect interactive websites
           A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
