@@ -58,12 +58,12 @@ function App() {
       <section class="profile container">
         
         <img className="profile__img" src={ravi} alt="profile"></img>
-        <h2 className='profile__subtitle'>Hi I am Ravi Teja Reddy 👋</h2>
-        <h2 className='profile__title'>Full Stack<br></br> Web Developer</h2>
+        <h2 className='profile__subtitle'><span className='subtitle1'>Hello, I'm </span><br></br> Ravi Teja Reddy </h2>
+        <h2 className='profile__title'>Full Stack Developer</h2>
         <p className='profile__description'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
           enthusiast specialized in bulding stunning pixel-perfect interactive websites
         </p>
-        <a className='btn profile__btn'href='reachout'>Reach Out</a>
+        <a className='btn profile__btn'href='#contact'>Contact</a>
       </section>
       
       <section id="about" className='about container '>

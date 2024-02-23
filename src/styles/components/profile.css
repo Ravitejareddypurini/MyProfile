@@ -4,7 +4,12 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    gap:0em;
     
+}
+.subtitle1{
+    font-size: var(--size-sm);
+    color: var(--clr-s600);
 }
 .profile__img{
     margin-top: 8rem;
@@ -16,14 +21,14 @@
 }
 
 .profile__subtitle{
-    color:var(--clr-s800);
+    color:var(--clr-s400);
     font-size: var(--size-base);
     line-height: 0.9;
 }
 .profile__title{
-    color:var(--clr-s400);
+    color:rgb(82, 145, 142);
     text-transform: uppercase;
-    font-size: var(--size-4xl);
+    font-size: var(--size-xl);
     letter-spacing: -0.05em;
     line-height: 0.9;
 }
@@ -42,7 +47,7 @@
 
 @media (min-width: 475px){
     .profile{
-        gap:1em;
+        gap:0.5em;
     }
     .profile__btn{
         margin-bottom: 8em;
