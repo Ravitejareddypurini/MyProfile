@@ -37,6 +37,7 @@
 .profile__btn{
     text-transform: capitalize;
     font-size: var(--size-sm);
+    margin-bottom: 8rem;
 }
 
 @media (min-width: 475px){
