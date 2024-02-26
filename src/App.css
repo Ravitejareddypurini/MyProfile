@@ -6,6 +6,7 @@
   --clr-s800: #1e293b;
   --clr-indigo: #4338ca;
   --clr-red: #dc2626;
+  --clr-blue: #2413dc;
 
   --size-xxs: 0.5rem;
   --size-xs: 0.75rem;
@@ -55,7 +56,9 @@ button{
 }
 h2,p{
   color: var(--clr-light);
+  text-align: justify;
 }
+
 a{
 color: var(--clr-red);
 }

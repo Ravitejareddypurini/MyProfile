@@ -12,6 +12,7 @@ import { FaLinkedin } from "react-icons/fa";
 import './styles/components/footer.css';
 import './styles/components/mobile.css';
 import  { React,useState } from 'react';
+import task from './images/task.png'
 
 function App() {
   const[homebar,sethomebar]=useState(false);
@@ -49,7 +50,7 @@ function App() {
           <li>
             <a className='mobile-nav__link' onClick={()=>sethomebar(!homebar)} href="#contact">Contact</a>
           </li>
-          <li className='mobile-nav__link-line'></li>
+          
           <li><button onClick={()=>sethomebar(!homebar)} className='header__resume btn' href="">Resume</button></li>
         </ul>
       </nav>
@@ -61,7 +62,7 @@ function App() {
         <h2 ><span className='subtitle1'>Hello, I'm </span><br></br> <span ></span>Ravi Teja Reddy </h2>
         <h2 className='profile__title'>Full Stack Developer</h2>
         <p className='profile__description'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
-          enthusiast specialized in bulding stunning pixel-perfect interactive websites
+          enthusiast specialized in building stunning pixel-perfect interactive websites.
         </p>
         <a className='btn profile__btn'href='#contact'>Contact</a>
       </section>
@@ -70,10 +71,14 @@ function App() {
         <div className='about__content'>
         {/* <hr className='about__hr'></hr> */}
           <h2 className='about__title'>About</h2>
-          <p className='about__desctiption'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
-          enthusiast specialized in bulding stunning pixel-perfect interactive websites
-          A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
-          enthusiast specialized in bulding stunning pixel-perfect interactive websites</p>
+          <p className='about__desctiption'>
+          Hello there! I'm Ravi Teja, a <strong>Front-End/Back-End Fullstack web developer</strong> by passion and profession.
+           I wake up in the morning, grab a cup of coffee, open up my laptop and build things that live on the web all day, everyday.<br></br><br></br>
+           I started my coding journey from Youtube out of curiosity which later on became an addiction you can say,
+            So I started my further studies in this field and joined ------ <strong>University of East London</strong> and turned this so called addiction into my career.<br></br><br></br>
+           I personally enjoy playing with Front-end technologies like<strong> Html, CSS, JavaScript & React.Js</strong>, and Back End technologies like <strong>Spring, Spring Microservices, Spring Security
+           </strong>
+            </p>
         
         <h3 className='about__subtitle'>Technologies</h3>
         
@@ -133,9 +138,10 @@ function App() {
           alt="project1"
           className='project-img'/>
         </div>
-        <h2 className='experience-sub-title project-title'>Project one</h2>
+        <h2 className='experience-sub-title project-title'>TODO List</h2>
         <div class="btn-container">
-          <button class="btn btn-color-2 project-btn">Github</button>
+          <button class="btn-color-2 project-btn">Github</button>
+          <button class="btn-color-2 project-btn">Go Live</button>
         </div>
        </div>
        
@@ -148,22 +154,11 @@ function App() {
         </div>
         <h2 className='experience-sub-title project-title'>Project one</h2>
         <div class="btn-container">
-          <button class="btn btn-color-2 project-btn">Github</button>
+          <button class="btn-color-2 project-btn">Github</button>
+          <button class=" btn-color-2 project-btn">Go Live</button>
         </div>
        </div>
 
-       <div className='experience-details-container'>
-        <div className='article-container'>
-          <img 
-          src={todo}
-          alt="project1"
-          className='project-img'/>
-        </div>
-        <h2 className='experience-sub-title project-title'>Project one</h2>
-        <div class="btn-container">
-          <button class="btn btn-color-2 project-btn">Github</button>
-        </div>
-       </div>
        
        </div>
         </section> 
@@ -183,10 +178,14 @@ function App() {
         <a className="contact_info" href="example"><FaLinkedin className='icons1'/> ravitejareddy@outlook.in</a>
         </div>
         </div>
+        
       </section>
+      <section  className='container'>
+     
+    </section>
     </main>
     <footer className='footer container'>
-      <h3 className='footer_title'>~Ravi Teja Reddy~</h3>
+      <h3 className='footer_title'></h3>
     </footer>
     </div>
   );

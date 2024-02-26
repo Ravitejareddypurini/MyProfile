@@ -27,7 +27,7 @@
     line-height: 0.9;
 }
 .profile__title{
-    color:rgb(130, 36, 36);
+    color:var(--clr-blue);
     text-transform: uppercase;
     font-size: var(--size-xl);
     letter-spacing: -0.05em;
@@ -43,16 +43,14 @@
 .profile__btn{
     text-transform: capitalize;
     font-size: var(--size-sm);
-    margin-bottom: 12rem;
+    
 }
 
 @media (min-width: 475px){
     .profile{
         gap:0.5em;
     }
-    .profile__btn{
-        margin-bottom: 8em;
-    }
+    
     
     .profile__img{
        margin-top: 5em;
@@ -79,9 +77,7 @@
     }
 }
 @media (min-width: 640px){
-    .profile__btn{
-        margin-bottom: 8em;
-    }
+    
     .profile__img{
         margin-top: 5em;
         

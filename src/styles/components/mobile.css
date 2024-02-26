@@ -18,7 +18,7 @@
 }
 .mobile-nav__link{
     list-style: none;
-    font-size: var(--size-m);
+    font-size: var(--size-lg);
     text-decoration: none;
     font-weight: 600;
     color: var(--clr-s600);
@@ -35,4 +35,7 @@
 .mobile-nav__link-line{
     border: 1px solid var(--clr-s600);
         padding-top:1.5rem;
+}
+.header__resume{
+    margin-top: 1.5rem;
 }

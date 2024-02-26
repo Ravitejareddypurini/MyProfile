@@ -34,12 +34,40 @@
 }
 .btn-container{
     margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    
 }
 .exp__hr{
     margin-top: 6rem;
     margin-bottom: 2em;
     border-color: var(--clr-s600);
 }
+.project-btn{
+    border-radius: 1.5rem;
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--clr-red);
+    color: var(--clr-light);
+    padding: 0.5em 1em;
+    box-shadow: 0 10px 20px rgb(220, 38, 38,0.5), 0 6px 6px
+    rgb(220, 38, 38,0.5),0 0 100px -10px var(--clr-red);
+    transition: transform 0.5s,box-shadow 0.2s;
+}
+.project-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgb(220, 38, 38,0.25), 0 10px 10px
+    rgb(220, 38, 38,0.22),0 0 120px -10px var(--clr-red);  
+
+}
+.project-title{
+    text-align: center;
+}
+
+
 
 /* .contact_info{
     display: flex;

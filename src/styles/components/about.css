@@ -14,6 +14,7 @@
     max-width: 60ch;
     font-size: var(--size-sm);
     color: var(--clr-s600);
+    text-align: justify;
 }
 .about__hr{
 
@@ -118,6 +119,9 @@
         font-size: var(--size-3xl);
        
     }
+    .about__title{
+        margin-top: 6rem;
+     }
     .about__description{
         
         font-size: var(--size-base);
@@ -166,6 +170,9 @@
         padding: 0.5em 1em;
    
     }
+    .about__title{
+        margin-top: 6rem;
+     }
     .about__ul-container1{
         display: flex;
         flex-direction: column;
@@ -179,7 +186,7 @@
      
      }
      .about__title{
-        margin-top: 0;
+        margin-top: 6rem;
      }
      .about__ul li{
         width: 6em;
