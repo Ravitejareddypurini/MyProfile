@@ -58,7 +58,7 @@ function App() {
       <section class="profile container">
         
         <img className="profile__img" src={ravi} alt="profile"></img>
-        <h2 className='profile__subtitle'><span className='subtitle1'>Hello, I'm </span><br></br> Ravi Teja Reddy </h2>
+        <h2 ><span className='subtitle1'>Hello, I'm </span><br></br> <span ></span>Ravi Teja Reddy </h2>
         <h2 className='profile__title'>Full Stack Developer</h2>
         <p className='profile__description'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
           enthusiast specialized in bulding stunning pixel-perfect interactive websites

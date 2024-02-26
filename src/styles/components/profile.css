@@ -1,4 +1,5 @@
 .profile{
+    margin-top: 2rem;
     text-align: center;
     display: flex;
     align-items: center;
@@ -26,7 +27,7 @@
     line-height: 0.9;
 }
 .profile__title{
-    color:rgb(82, 145, 142);
+    color:rgb(130, 36, 36);
     text-transform: uppercase;
     font-size: var(--size-xl);
     letter-spacing: -0.05em;
