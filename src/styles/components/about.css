@@ -75,6 +75,9 @@
     rgba(246, 65, 65, 0.5),0 0 100px -10px var(--clr-red); */
     transition: transform 0.5s,box-shadow 0.2s;
 }
+.subtitle1{
+    text-align: center;
+}
 
 .about__items{
     
@@ -193,6 +196,9 @@
     }
 }
 @media (min-width: 1280px){
+    .about__title{
+        margin-top: 10rem;
+     }
     .about{
         display: flex;
         

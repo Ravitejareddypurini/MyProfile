@@ -8,6 +8,10 @@
     gap:0em;
     
 }
+.subsub{
+    display: flex;
+    flex-direction: column;
+}
 .subtitle1{
     font-size: var(--size-sm);
     color: var(--clr-s600);
@@ -27,7 +31,7 @@
     line-height: 0.9;
 }
 .profile__title{
-    color:var(--clr-blue);
+    color:var(--clr-s400);
     text-transform: uppercase;
     font-size: var(--size-xl);
     letter-spacing: -0.05em;
@@ -43,7 +47,7 @@
 .profile__btn{
     text-transform: capitalize;
     font-size: var(--size-sm);
-    
+   
 }
 
 @media (min-width: 475px){
