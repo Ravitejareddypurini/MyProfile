@@ -9,6 +9,7 @@
     font-size: var(--size-2xl);
     color: var(--clr-light);
     text-align: center;
+    margin-top: 2em;
 }
 .about__description{
     max-width: 60ch;
