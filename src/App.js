@@ -22,6 +22,9 @@ function App() {
     <header className='header container'>
       <nav>
         <ul className='header__menu'>
+        <li>
+            <a  className='header__link' href='#home'>Home</a>
+          </li>
           <li>
             <a  className='header__link' href='#about'>About</a>
           </li>
@@ -40,6 +43,9 @@ function App() {
     <div className={homebar?'mobile-nav':'mobile-nav_none'}>
       <nav>
         <ul className='mobile-nav__menu'>
+        <li>
+            <a className='mobile-nav__link' onClick={()=>sethomebar(!homebar)} on href="#home">Home</a>
+          </li>
           <li>
             <a className='mobile-nav__link' onClick={()=>sethomebar(!homebar)} on href="#about">About</a>
           </li>
@@ -55,7 +61,7 @@ function App() {
       </nav>
     </div>
     <main>
-      <section class="profile container">
+      <section id="home" class="profile container">
         
         <img className="profile__img" src={ravi} alt="profile"></img>
         <h2 className='subsub'><span className='subtitle1'>Hello, I'm </span><span className='subtitle2'>Ravi Teja Reddy </span></h2>
