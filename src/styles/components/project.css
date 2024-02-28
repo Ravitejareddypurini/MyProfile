@@ -15,7 +15,9 @@
 .experience-details-container{
     border: 1px solid; 
     border-color: var(--clr-s600);
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 2em;
     text-align: center;
   
@@ -117,7 +119,7 @@
     border-radius: 2rem;
     border: 0.1rem solid;
     border-color: var(--clr-s600);
-    margin:2rem auto;
+    /* margin:2rem auto; */
     padding:0.5rem;
 }
 .contact-container{
