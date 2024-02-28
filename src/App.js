@@ -14,6 +14,7 @@ import './styles/components/mobile.css';
 import  { React,useState } from 'react';
 import task from './images/task.png';
 import Technologies from './technologies';
+
 function App() {
   const[homebar,sethomebar]=useState(false);
 
@@ -132,10 +133,10 @@ function App() {
         <h1 class="title">Contact Me</h1>
         <div className='contact-upper-container'>
         <div className='contact-container'>
-        <a className="contact_info" href="example"><MdEmail className='icons'/> ravitejareddy@outlook.in</a>
+        <a className="contact_info" href="https://outlook.live.com/mail/"><MdEmail className='icons'/> ravitejareddy@outlook.in</a>
         </div>
         <div className='contact-container'>
-        <a className="contact_info" href="example"><FaLinkedin className='icons1'/> ravitejareddy@outlook.in</a>
+        <a className="contact_info" href="https://www.linkedin.com/in/ravitejareddy34/"><FaLinkedin className='icons1'/>linkedin.com/in/ravitejareddy34</a>
         </div>
         </div>
         
