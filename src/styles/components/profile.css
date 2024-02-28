@@ -13,6 +13,7 @@
     flex-direction: column;
 }
 .subtitle1{
+    margin-top: 1em;
     font-size: var(--size-sm);
     color: var(--clr-s600);
 }
@@ -36,6 +37,8 @@
     font-size: var(--size-xl);
     letter-spacing: -0.05em;
     line-height: 0.9;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .profile__description{
@@ -103,7 +106,7 @@
         
     }
     .profile__img{
-        margin-top: 0em;
+        margin-top: 5em;
         
         
      }

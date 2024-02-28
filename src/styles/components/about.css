@@ -123,7 +123,7 @@
        
     }
     .about__title{
-        margin-top: 6rem;
+        margin-top: 4rem;
      }
     .about__description{
         
@@ -159,6 +159,9 @@
         padding: 0.5em 1em;
    
     }
+    .about__title{
+        margin-top: 6rem;
+     }
    
 }
 @media (min-width: 768px){

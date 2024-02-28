@@ -12,11 +12,10 @@ import { FaLinkedin } from "react-icons/fa";
 import './styles/components/footer.css';
 import './styles/components/mobile.css';
 import  { React,useState } from 'react';
-import task from './images/task.png'
-
+import task from './images/task.png';
+import Technologies from './technologies';
 function App() {
   const[homebar,sethomebar]=useState(false);
-  // const showhomebar=()=>sethomebar(!homebar)
 
   return (
     <div>
@@ -69,7 +68,7 @@ function App() {
       
       <section id="about" className='about container '>
         <div className='about__content'>
-        {/* <hr className='about__hr'></hr> */}
+
           <h2 className='about__title'>About</h2>
           <p className='about__desctiption'>
           Hello there! I'm Ravi Teja, a <strong>Front-End/Back-End Fullstack web developer</strong> by passion and profession.
@@ -82,50 +81,9 @@ function App() {
         
         <h3 className='about__subtitle'>Technologies</h3>
         
-        
-        <div className='about__ul-container1'>
-          <div className='about__items'>
-             <h1 className='profile__description'>Frontend</h1>
-             {/* <hr className='about__hr'></hr> */}
-           <ul className='about__ul'>
-             <li>Html</li>
-             <li>CSS</li>
-             <li> Java Script</li>
-             <li> Type Script</li>
-             <li> Reactt</li>
-             <li> Material-UI</li>
-             <li> Sass</li>
-             <li> Tailwind</li>
-            <li>Redux</li>
-          
-            </ul>
-          </div>
-        <div className='about__items'>
-          <h1 className='profile__description'>Backend</h1>
-          {/* <hr className='about__hr'></hr> */}
-        <ul  className='about__ul'>
-        <li > Spring</li>
-        <li> Spring Microservices</li>
-        <li> Spring Security</li>
-        <li> J2EE</li>
-          <li >My Sql</li>
-          <li >MongoDB</li>
-        </ul>
-        </div>
-        
-        </div>
-       
-      </div>
-      </section> 
-      {/* <section className='exp container '>
-        <div className='exp__content'>
-        <hr className='exp__hr'></hr>
-          <h2 className='exp__title'>Experience</h2>
-          <p className='exp__desctiption'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
-          enthusiast specialized in bulding stunning pixel-perfect interactive websites</p>
+        <Technologies/></div>
 
-        </div>
-      </section> */}
+      </section> 
       <section id="projects" className='projects container'>
       <hr className='exp__hr'></hr>
         <p className='section_text_p1'>Browse My Recent</p>
@@ -141,7 +99,7 @@ function App() {
         <h2 className='experience-sub-title project-title'>TODO List</h2>
         <div class="btn-container">
           <button class="btn-color-2 project-btn">Github</button>
-          <button class="btn-color-2 project-btn">Go Live</button>
+          <button class="btn-color-2 project-btn">Demo</button>
         </div>
        </div>
        
@@ -155,7 +113,7 @@ function App() {
         <h2 className='experience-sub-title project-title'>Project one</h2>
         <div class="btn-container">
           <button class="btn-color-2 project-btn">Github</button>
-          <button class=" btn-color-2 project-btn">Go Live</button>
+          <button class=" btn-color-2 project-btn">Demo</button>
         </div>
        </div>
 
@@ -168,10 +126,6 @@ function App() {
         <h1 class="title">Contact Me</h1>
         <div className='contact-upper-container'>
         <div className='contact-container'>
-        {/* <ul className='contact-items'>
-          <li><a className="contact_info" href="example"><MdEmail className='icons'/> ravitejareddy@outlook.in</a></li>
-          <li><a className="contact_info" href="example"><FaLinkedin/> ravitejareddy@outlook.in</a></li>
-        </ul> */}
         <a className="contact_info" href="example"><MdEmail className='icons'/> ravitejareddy@outlook.in</a>
         </div>
         <div className='contact-container'>
