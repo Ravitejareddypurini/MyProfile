@@ -37,6 +37,7 @@
     align-self: center;
     /* transform: translateY(-50%); */
 }
+
 .btn-container{
     margin-bottom: 2em;
     display: flex;

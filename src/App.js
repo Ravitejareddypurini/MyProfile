@@ -5,6 +5,7 @@ import './styles/components/header.css'
 import './styles/components/profile.css'
 import ravi from'./images/ravi.jpg'
 import todo from './images/todo.webp'
+import chat from './images/chat.avif'
 import './styles/components/about.css'
 import './styles/components/project.css'
 import { MdEmail } from "react-icons/md";
@@ -113,11 +114,11 @@ function App() {
        <div className='experience-details-container'>
         <div className='article-container'>
           <img 
-          src={todo}
+          src={chat}
           alt="project1"
           className='project-img'/>
         </div>
-        <h2 className='experience-sub-title project-title'>Project one</h2>
+        <h2 className='experience-sub-title project-title'>Chat App</h2>
         <div class="btn-container">
           <button class="btn-color-2 project-btn">Github</button>
           <button class=" btn-color-2 project-btn">Demo</button>
