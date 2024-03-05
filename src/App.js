@@ -107,7 +107,7 @@ function App() {
         <h2 className='experience-sub-title project-title'>TODO List</h2>
         <div class="btn-container">
           <button class="btn-color-2 project-btn">Github</button>
-          <button class="btn-color-2 project-btn">Demo</button>
+          {/* <button class="btn-color-2 project-btn">Demo</button> */}
         </div>
        </div>
        
@@ -121,7 +121,7 @@ function App() {
         <h2 className='experience-sub-title project-title'>Chat App</h2>
         <div class="btn-container">
           <button class="btn-color-2 project-btn">Github</button>
-          <button class=" btn-color-2 project-btn">Demo</button>
+          {/* <button class=" btn-color-2 project-btn">Demo</button> */}
         </div>
        </div>
 
