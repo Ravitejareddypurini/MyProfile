@@ -101,7 +101,7 @@ const Technologies = () => {
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-6 mx-auto" />
-              <p className="mt-1 text-center">{title}</p>
+              <p className="mt-1 text-center text-xs">{title}</p>
             </div>
           ))}
         </div>
