@@ -106,7 +106,7 @@ function App() {
         </div>
         <h2 className='experience-sub-title project-title'>TODO List</h2>
         <div class="btn-container">
-          <a href="https://github.com/Ravitejareddypurini/todo" class="btn-color-2 project-btn">Github</a>
+          <a href="https://github.com/Ravitejareddypurini/todo/tree/master/todolist" class="btn-color-2 project-btn">Github</a>
           {/* <button class="btn-color-2 project-btn">Demo</button> */}
         </div>
        </div>
