@@ -15,6 +15,7 @@ import './styles/components/mobile.css';
 import  { React,useState } from 'react';
 import task from './images/task.png';
 import Technologies from './technologies';
+import resume from './styles/components/Ravi_ResumeU.pdf' 
 
 function App() {
   const[homebar,sethomebar]=useState(false);
@@ -33,7 +34,10 @@ function App() {
           <li><a  className='header__link' href='#projects'>Projects</a></li>
           <li><a  className='header__link' href="#contact">Contact</a></li>
           <li className='header__line'></li>
-          <li><button className='header__resume btn' href="">Resume</button></li>
+          <li><a href={resume}
+        download="Resume"
+        target="_blank"
+        rel="noreferrer"><button className='header__resume btn' href="">Resume</button></a></li>
         </ul>
         <button className='header__bars' onClick={()=>sethomebar(!homebar)}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
@@ -58,7 +62,10 @@ function App() {
             <a className='mobile-nav__link' onClick={()=>sethomebar(!homebar)} href="#contact">Contact</a>
           </li>
           
-          <li><button onClick={()=>sethomebar(!homebar)} className='header__resume btn' href="">Resume</button></li>
+          <li><a href={resume}
+        download="Resume"
+        target="_blank"
+        rel="noreferrer"><button onClick={()=>sethomebar(!homebar)} className='header__resume btn' href="">My Resume</button></a></li>
         </ul>
       </nav>
     </div>
