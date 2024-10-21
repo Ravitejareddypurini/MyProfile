@@ -14,6 +14,8 @@ import material from './assets/material.png'
 import python from './assets/python.webp'
 import docker from './assets/docker.png'
 import fast from './assets/fast.png'
+import aws from './assets/aws.png'
+import post from './assets/post.png'
 const Technologies = () => {
   const techs = [
     {
@@ -50,7 +52,7 @@ const Technologies = () => {
       id: 6,
       src: material,
       title: "Material UI",
-      style: "shadow-sky-400",
+      style: "shadow-indigo-400",
     },
     {
       id: 7,
@@ -60,46 +62,53 @@ const Technologies = () => {
     },
     {
       id: 8,
-      src: spring,
-      title: "Spring",
-      style: "shadow-green-400",
-    },
-    {
-      id: 9,
-      src: sql,
-      title: "SQL",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 10,
-      src: mongo,
-      title: "Mongo DB",
-      style: "shadow-green-400",
-    },
-    {
-      id: 11,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
-    },
-    {
-      id: 12,
-      src: docker,
-      title: "Docker",
-      style: "shadow-blue-400",
-    },
-    {
-      id: 13,
       src: python,
       title: "Python",
       style: "shadow-blue-400",
     },
     {
-      id: 14,
+      id: 9,
       src: fast,
-      title: "Fast API",
+      title: "FastAPI",
       style: "shadow-green-400",
     },
+    {
+      id: 10,
+      src: sql,
+      title: "SQL",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 11,
+      src: mongo,
+      title: "Mongo DB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 12,
+      src: post,
+      title: "PostgreSQL",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 13,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 14,
+      src: docker,
+      title: "Docker",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 15,
+      src: aws,
+      title: "AWS",
+      style: "shadow-yellow-400",
+    },
+
   ];
 
   return (
