@@ -165,6 +165,7 @@
     }
     .profile__btn{
         font-size: var(--size-lg);
+        margin-bottom: 7rem;
     }
 }
 @media (min-width: 1535px){

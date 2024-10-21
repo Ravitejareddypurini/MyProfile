@@ -22,6 +22,9 @@ function App() {
 
   return (
     <div>
+      <main>
+        <section id="home">
+        
     <header className='header container'>
       <nav>
         <ul className='header__menu'>
@@ -68,12 +71,13 @@ function App() {
         rel="noreferrer"><button onClick={()=>sethomebar(!homebar)} className='header__resume btn' href="">My Resume</button></a></li>
         </ul>
       </nav>
+      
     </div>
-    <main>
-      <section id="home" class="profile container">
+    </section>
+      <section  class="profile container">
         
         <img className="profile__img" src={ravi} alt="profile"></img>
-        <h2 className='subsub'><span className='subtitle1'>Hello, I'm </span><span className='subtitle2'>Ravi Teja Reddy </span></h2>
+        <h2 className='subsub'><span className='subtitle1'>Hello, I'm</span><span className='subtitle2'>Ravi Teja Reddy </span></h2>
         <h2 className='profile__title'>Full Stack Developer</h2>
         <p className='profile__description'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
           enthusiast specialized in building stunning pixel-perfect interactive websites.

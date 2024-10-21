@@ -11,6 +11,9 @@ import github from "./assets/github.png";
 import tailwind from "./assets/tailwind.png";
 import java from './assets/java.png';
 import material from './assets/material.png'
+import python from './assets/python.webp'
+import docker from './assets/docker.png'
+import fast from './assets/fast.png'
 const Technologies = () => {
   const techs = [
     {
@@ -81,9 +84,21 @@ const Technologies = () => {
     },
     {
       id: 12,
-      src: github,
-      title: "Git",
-      style: "shadow-gray-400",
+      src: docker,
+      title: "Docker",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 13,
+      src: python,
+      title: "Python",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 14,
+      src: fast,
+      title: "Fast API",
+      style: "shadow-green-400",
     },
   ];
 
