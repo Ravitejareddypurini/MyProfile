@@ -15,7 +15,7 @@ import './styles/components/mobile.css';
 import  { React,useState } from 'react';
 import task from './images/task.png';
 import Technologies from './technologies';
-import resume from './styles/components/Ravi_ResumeU.pdf' 
+import resume from './styles/components/Resume.pdf' 
 
 function App() {
   const[homebar,sethomebar]=useState(false);
