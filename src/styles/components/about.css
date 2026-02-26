@@ -16,6 +16,10 @@
     font-size: var(--size-sm);
     color: var(--clr-s600);
     text-align: justify;
+     
+}
+.tech{
+    margin-top: 10rem;
 }
 .about__hr{
 

@@ -16,6 +16,8 @@ import docker from './assets/docker.png'
 import fast from './assets/fast.png'
 import aws from './assets/aws.png'
 import post from './assets/post.png'
+import nodejs from './assets/nodejs.jpg'
+import genai from './assets/genai.png'
 const Technologies = () => {
   const techs = [
     {
@@ -56,8 +58,8 @@ const Technologies = () => {
     },
     {
       id: 7,
-      src: java,
-      title: "Java",
+      src: nodejs,
+      title: "Node JS",
       style: "shadow-red-400",
     },
     {
@@ -66,12 +68,12 @@ const Technologies = () => {
       title: "Python",
       style: "shadow-blue-400",
     },
-    {
-      id: 9,
-      src: fast,
-      title: "FastAPI",
-      style: "shadow-green-400",
-    },
+    // {
+    //   id: 9,
+    //   src: fast,
+    //   title: "FastAPI",
+    //   style: "shadow-green-400",
+    // },
     {
       id: 10,
       src: sql,
@@ -84,28 +86,28 @@ const Technologies = () => {
       title: "Mongo DB",
       style: "shadow-green-400",
     },
-    {
-      id: 12,
-      src: post,
-      title: "PostgreSQL",
-      style: "shadow-blue-400",
-    },
+    // {
+    //   id: 12,
+    //   src: post,
+    //   title: "PostgreSQL",
+    //   style: "shadow-blue-400",
+    // },
     {
       id: 13,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
-    {
-      id: 14,
-      src: docker,
-      title: "Docker",
-      style: "shadow-purple-400",
-    },
+    // {
+    //   id: 14,
+    //   src: docker,
+    //   title: "Docker",
+    //   style: "shadow-purple-400",
+    // },
     {
       id: 15,
-      src: aws,
-      title: "AWS",
+      src: genai,
+      title: "Gen AI",
       style: "shadow-yellow-400",
     },
 

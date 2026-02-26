@@ -78,7 +78,7 @@ function App() {
         
         <img className="profile__img" src={ravi} alt="profile"></img>
         <h2 className='subsub'><span className='subtitle1'>Hello, I'm</span><span className='subtitle2'>Ravi Teja Reddy </span></h2>
-        <h2 className='profile__title'>Full Stack Developer</h2>
+        <h2 className='profile__title'>MERN Stack Developer</h2>
         <p className='profile__description'>A passionate <strong>Frontend / Backend Fullstack web developer</strong> 
           enthusiast specialized in building stunning pixel-perfect interactive websites.
         </p>
@@ -89,21 +89,26 @@ function App() {
         <div className='about__content'>
 
           <h2 className='about__title'>About</h2>
-          <p className='about__desctiption'>
-          Hello there! I'm Ravi Teja, a <strong>Front-End/Back-End Fullstack web developer</strong> by passion and profession.
-           I wake up in the morning, grab a cup of coffee, open up my laptop and build things that live on the web all day, everyday.<br></br><br></br>
-           I started my coding journey from Youtube out of curiosity which later on became an addiction you can say,
-            So I started my further studies in this field and joined ------ <strong>University of East London</strong> and turned this so called addiction into my career.<br></br><br></br>
-           I personally enjoy playing with Front-end technologies like<strong> Html, CSS, JavaScript & React.Js</strong>, and Back End technologies like <strong>Spring, Spring Microservices, Spring Security
-           </strong>
-            </p>
+    <p className='about__desctiption'>
+  Hello there! I'm Ravi Teja, a <strong>Fullstack MERN Developer</strong> passionate about building modern web applications powered by <strong>Generative AI</strong>.<br /><br />
+
+  Every day, I start with a cup of coffee and dive into code, turning ideas into interactive and intelligent web experiences. I thrive on solving complex problems, creating scalable applications, and integrating AI to make apps smarter and more user-friendly.<br /><br />
+
+  My coding journey began with curiosity on YouTube, which quickly turned into an obsession. To formalize my skills, I pursued studies at the <strong>University of East London</strong> and transformed this passion into a full-fledged career.<br /><br />
+
+  On the frontend, I enjoy crafting intuitive interfaces using <strong>React.js, HTML, CSS, and JavaScript</strong>. On the backend, I build robust APIs and scalable architectures with <strong>Node.js, Express.js, and MongoDB</strong>. I continuously explore emerging technologies, including Generative AI, to create smarter and more innovative applications.<br /><br />
+
+  Beyond coding, I enjoy collaborating with other developers, contributing to open-source projects, and mentoring aspiring programmers. My ultimate goal is to create applications that are not only functional but also provide real value, delight users, and push the boundaries of modern web development.<br /><br />
+
+  I am also passionate about learning new frameworks and tools, experimenting with AI-driven solutions, and continuously improving my coding practices. I believe that technology should simplify lives, and I strive to build applications that make a tangible impact. I take pride in writing clean, maintainable code and in turning creative ideas into fully functional products. Every project I work on is an opportunity to learn, grow, and push the limits of what’s possible on the web.
+</p>
         
-        <h3 className='about__subtitle'>Technologies</h3>
+        <h3 className='about__subtitle tech'>Technologies</h3>
         
         <Technologies/></div>
 
       </section> 
-      <section id="projects" className='projects container'>
+      <section id="projects" className='projects container tech'>
       <hr className='exp__hr'></hr>
         <p className='section_text_p1'>Browse My Recent</p>
        <h1 className='title'>Projects</h1>
