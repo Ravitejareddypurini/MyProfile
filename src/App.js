@@ -15,8 +15,8 @@ import './styles/components/mobile.css';
 import  { React,useState } from 'react';
 import task from './images/task.png';
 import Technologies from './technologies';
-import resume from './styles/components/Ravi_Resume.pdf'
-import ecommerce from './images/ecommerce.webp';
+import resume from './styles/components/Ravi_Resume.pdf';
+import ecommerce from './images/ecommerce.jpg';
 
 function App() {
   const[homebar,sethomebar]=useState(false);
@@ -122,10 +122,10 @@ function App() {
           className='project-img'/>
         </div>
         <h2 className='experience-sub-title project-title'>E-Commerce</h2>
-        {/* <div class="btn-container">
+        <div class="btn-container">
           <a href="https://github.com/Ravitejareddypurini/todo/tree/master/todolist" class="btn-color-2 project-btn">Github</a>
-          
-        </div> */}
+          {/* <button class="btn-color-2 project-btn">Demo</button> */}
+        </div>
        </div>
        
        <div className='experience-details-container'>
