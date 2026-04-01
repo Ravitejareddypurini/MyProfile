@@ -16,6 +16,7 @@ import  { React,useState } from 'react';
 import task from './images/task.png';
 import Technologies from './technologies';
 import resume from './styles/components/Ravi_Resume.pdf'
+import ecommerce from './images/ecommerce.webp';
 
 function App() {
   const[homebar,sethomebar]=useState(false);
@@ -116,7 +117,7 @@ function App() {
        <div className='experience-details-container'>
         <div className='article-container'>
           <img 
-          src={todo}
+          src={ecommerce}
           alt="project1"
           className='project-img'/>
         </div>
